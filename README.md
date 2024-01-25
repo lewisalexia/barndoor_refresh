@@ -15,7 +15,7 @@
 
 ## Projects in Queue:
 
-<span style="color: magenta">✓(1)</span> <span style="color: navy">*Beautiful Soup:*</span> A popular library for web scraping that provides easy navigation of HTML and XML documents.
+<span style="color: magenta">✓(1)</span> <span style="color: navy">**Beautiful Soup:**</span> A popular library for web scraping that provides easy navigation of HTML and XML documents.
 
 <!--
 Pros:
@@ -27,7 +27,7 @@ Cons:
 Cannot handle JavaScript-driven content.
 -->
 
-<span style="color: navy">*Scrapy:*</span> A powerful and widely-used framework for web crawling and data extraction.
+<span style="color: navy">**Scrapy:**</span> A powerful and widely-used framework for web crawling and data extraction.
 
 <!--
 Pros:
@@ -39,7 +39,7 @@ Cons:
 May have a steeper learning curve for beginners.
 -->
 
-<span style="color: magenta">✓(1)</span> <span style="color: navy">*Requests-HTML:*</span> A library that combines Requests and Beautiful Soup for simplified web scraping.
+<span style="color: magenta">✓(1)</span> <span style="color: navy">**Requests-HTML:**</span> A library that combines Requests and Beautiful Soup for simplified web scraping.
 
 <!--
 Pros:
@@ -50,7 +50,7 @@ Cons:
 Limited support for JavaScript-driven websites.
 -->
 
-<span style="color: navy">*Selenium:*</span> A web automation tool that can be used for scraping websites with dynamic content.
+<span style="color: navy">**Selenium:**</span> A web automation tool that can be used for scraping websites with dynamic content.
 
 <!--
 Pros:
@@ -62,7 +62,7 @@ Cons:
 Slower than other methods due to browser rendering.
 -->
 
-<span style="color: navy">*MechanicalSoup:*</span> A library that combines Requests and Beautiful Soup for web scraping.
+<span style="color: navy">**MechanicalSoup:**</span> A library that combines Requests and Beautiful Soup for web scraping.
 
 <!--
 Pros:
@@ -73,7 +73,7 @@ Cons:
 Limited support for JavaScript content.
 -->
 
-<span style="color: navy">*PyQuery:*</span> A library for parsing HTML and XML documents using jQuery syntax.
+<span style="color: navy">**PyQuery:**</span> A library for parsing HTML and XML documents using jQuery syntax.
 
 <!--
 Pros:
@@ -84,7 +84,7 @@ Cons:
 Limited features compared to more comprehensive libraries.
 -->
 
-<span style="color: navy">*LXML:*</span> A fast and efficient library for parsing XML and HTML documents.
+<span style="color: navy">**LXML:**</span> A fast and efficient library for parsing XML and HTML documents.
 
 <!--
 Pros:
@@ -95,7 +95,7 @@ Cons:
 Can be complex for beginners.
 -->
 
-<span style="color: navy">*Tweepy:*</span> A library for accessing Twitter's API and scraping tweets and user data.
+<span style="color: navy">**Tweepy:**</span> A library for accessing Twitter's API and scraping tweets and user data.
 
 <!--
 Pros:
@@ -106,7 +106,7 @@ Cons:
 Limited to Twitter-specific data.
 -->
 
-<span style="color: navy">*Feedparser:*</span> A library for parsing RSS and Atom feeds.
+<span style="color: navy">**Feedparser:**</span> A library for parsing RSS and Atom feeds.
 
 <!--
 Pros:
@@ -117,7 +117,7 @@ Cons:
 Limited to feed parsing.
 -->
 
-<span style="color: navy">*Pattern:*</span> A web mining module for Python that includes tools for web crawling, natural language processing, and machine learning.
+<span style="color: navy">**Pattern:**</span> A web mining module for Python that includes tools for web crawling, natural language processing, and machine learning.
 
 <!--
 Pros:
@@ -128,7 +128,7 @@ Cons:
 May be complex for basic scraping.
 -->
 
-<span style="color: navy">*WebScraping.io:*</span> A Python library that simplifies web scraping tasks.
+<span style="color: navy">**WebScraping.io:**</span> A Python library that simplifies web scraping tasks.
 
 <!--
 Pros:
@@ -139,7 +139,7 @@ Cons:
 Limited to basic web scraping.
 -->
 
-<span style="color: navy">*Pyppeteer:*</span> An open-source Python library for controlling headless Chromium browsers. It's used for web scraping, automation, and browser testing, offering easy interaction with web pages, navigation, and tasks like taking screenshots and generating PDFs. Ideal for tasks involving websites with JavaScript content.
+<span style="color: navy">**Pyppeteer:**</span> An open-source Python library for controlling headless Chromium browsers. It's used for web scraping, automation, and browser testing, offering easy interaction with web pages, navigation, and tasks like taking screenshots and generating PDFs. Ideal for tasks involving websites with JavaScript content.
 
 <!--
 Pros:
@@ -150,7 +150,7 @@ Cons:
 Requires a heavier browser engine.
 -->
 
-<span style="color: navy">*PyAutoGUI:*</span> A Python library for automating GUI interactions, including mouse movements and keyboard input. Useful for automating tasks that involve interacting with the graphical user interface.
+<span style="color: navy">**PyAutoGUI:**</span> A Python library for automating GUI interactions, including mouse movements and keyboard input. Useful for automating tasks that involve interacting with the graphical user interface.
 
 <!--
 Pros:
@@ -161,7 +161,7 @@ Cons:
 May not be suitable for web scraping tasks.
 -->
 
-<span style="color: navy">*Pyperclip:*</span> A Python module for working with the clipboard. It allows you to copy and paste text to and from the clipboard in a cross-platform manner, making it useful for automating clipboard-related tasks.
+<span style="color: navy">**Pyperclip:**</span> A Python module for working with the clipboard. It allows you to copy and paste text to and from the clipboard in a cross-platform manner, making it useful for automating clipboard-related tasks.
 
 <!--
 Pros:
