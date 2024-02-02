@@ -17,7 +17,7 @@
 
 ## Projects in Queue:
 
-<span style="color: magenta">✓(1)</span> <span style="color: navy">**Beautiful Soup:**</span> A popular library for web scraping that provides easy navigation of HTML and XML documents.
+<span style="color: magenta">✓(1)</span> <span style="color: navy">`Beautiful Soup:`</span> A popular library for web scraping that provides easy navigation of HTML and XML documents.
 
 <!--
 Pros:
@@ -29,7 +29,7 @@ Cons:
 Cannot handle JavaScript-driven content.
 -->
 
-<span style="color: magenta">✓(2)</span> <span style="color: navy">**Scrapy:**</span> A powerful and widely-used framework for web crawling and data extraction.
+<span style="color: magenta">✓(2)</span> <span style="color: navy">`Scrapy:`</span> A powerful and widely-used framework for web crawling and data extraction.
 
 <!--
 Pros:
@@ -41,7 +41,7 @@ Cons:
 May have a steeper learning curve for beginners.
 -->
 
-<span style="color: magenta">✓(1)</span> <span style="color: navy">**Requests-HTML:**</span> A library that combines Requests and Beautiful Soup for simplified web scraping.
+<span style="color: magenta">✓(1)</span> <span style="color: navy">`Requests-HTML:`</span> A library that combines Requests and Beautiful Soup for simplified web scraping.
 
 <!--
 Pros:
