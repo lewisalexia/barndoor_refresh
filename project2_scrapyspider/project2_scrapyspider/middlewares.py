@@ -4,10 +4,9 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
-
+import json
+import env
 # useful for handling different item types with a single interface
-from itemadapter import is_item, ItemAdapter
-
 
 class Project2ScrapyspiderSpiderMiddleware:
     # Not all methods need to be defined. If a method is not defined,
@@ -101,3 +100,30 @@ class Project2ScrapyspiderDownloaderMiddleware:
 
     def spider_opened(self, spider):
         spider.logger.info("Spider opened: %s" % spider.name)
+
+class FilterDuplicatesMiddleware:
+    def __init__(self):
+        self.titles = set()
+
+    def open_spider(self, spider):
+        try:
+            with open(spider.settings.get(env.jsonl_path), 'r') as file:
+                for line in file:
+                    data = json.loads(line)
+                    self.titles.add(data.get('us_news', ''))
+        except FileNotFoundError:
+            # If the file doesn't exist, no titles are loaded, and all will be considered new
+            pass
+
+    def process_spider_output(self, response, result, spider):
+        new_results = []
+        for item in result:
+            if isinstance(item, dict) and item.get('us_news') not in self.titles:
+                new_results.append(item)
+                self.titles.add(item.get('us_news'))
+                
+            else:
+                spider.logger.info(f"Duplicate title found: {item.get('us_news')}")
+
+        spider.logger.info(f'{len(new_results)} New Titles Found')
+        return new_results
