@@ -52,9 +52,9 @@ ROBOTSTXT_OBEY = True
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    "project2_scrapyspider.middlewares.Project2ScrapyspiderDownloaderMiddleware": 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+    'project2_scrapyspider.middlewares.FilterDuplicatesMiddleware': 543
+               }
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
@@ -93,8 +93,11 @@ ROBOTSTXT_OBEY = True
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
-FEED_FORMAT = 'csv'
-FEED_URI = env.csv_path
+FEED_FORMAT = 'json_lines'
+FEED_URI = env.jsonl_path
 ITEM_PIPELINES = {
-   'project2_scrapyspider.pipelines.DuplicatesPipeline': 300,
+   'project2_scrapyspider.pipelines.JsonLinesPipeline': 300,
 }
+# LOG_FILE = 'log_output.txt'
+# Possible values: DEBUG, INFO, WARNING, ERROR, CRITICAL
+# LOG_LEVEL = 'DEBUG'
