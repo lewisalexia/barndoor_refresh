@@ -1,12 +1,5 @@
 import scrapy
-import os
 import pandas as pd
-import env
-
-if not os.path.isfile(env.csv_path):
-    df = pd.DataFrame(columns=['us_news'])
-    df.to_csv(env.csv_path, index=False)
-
 from project2_scrapyspider.items import Project2ScrapyspiderItem
 
 class NewstitleSpider(scrapy.Spider):
@@ -24,3 +17,4 @@ class NewstitleSpider(scrapy.Spider):
             item = Project2ScrapyspiderItem()
             item['us_news'] = title
             yield item
+        print(f'US News Titles Found {len(titles)}')
