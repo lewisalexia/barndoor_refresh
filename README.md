@@ -11,8 +11,9 @@
 
 ## Completed Projects:
 
-1. ***scraping-project-companies*** is a simple BeautifulSoup and Requests scrape originally created in a *.ipynb* environment. Using this [Wiki Page](https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue) 
-2. ***project2_scrapyspider*** is a simple scraping spider used to gather unique headlines from one of my favorite reporting groups and save them into a CSV. Created in a *.py* environment and using the CLI to initiate the spider. Using this [News Site](https://www.realnewsnotbs.com/us-news/) <br>
+1. ***scraping-project-companies*** is a BeautifulSoup and Requests scrape originally created in a *.ipynb* environment. Using this [Wiki Page](https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue) 
+2. ***project2_scrapyspider*** is a scraping spider used to gather unique headlines from a news site and save them into a JSONL. Created in a *.py* environment and using the CLI to initiate the spider. Using this [News Site](https://www.realnewsnotbs.com/us-news/) <br>
+ * Second iteration has been completed, including: writing to JSONL instead of CSV, using downloader middleware to check for duplicates when spider runs over site again.
  * Future projects include incorporating a crom rule to perform at a certain time, adding hyperlinks, sending a daily email, and scanning additional sites for their newest headline as well. <br>
 
 ## Projects in Queue:
